@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FinanceService.iml" filepath="$PROJECT_DIR$/FinanceService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FinanceService.Data/FinanceService.Data.iml" filepath="$PROJECT_DIR$/FinanceService.Data/FinanceService.Data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FinanceService.Interface/FinanceService.Interface.iml" filepath="$PROJECT_DIR$/FinanceService.Interface/FinanceService.Interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FinanceService.Service/FinanceService.Service.iml" filepath="$PROJECT_DIR$/FinanceService.Service/FinanceService.Service.iml" />
+    </modules>
+  </component>
+</project>
