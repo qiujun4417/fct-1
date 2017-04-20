@@ -1,2 +1,3 @@
-com/fct/message/model/PaySuccess.class
-com/fct/message/model/RefundToPlatform.class
+com/fct/message/model/MQPayRefund.class
+com/fct/message/model/MQPayTrade.class
+com/fct/message/model/MQPaySuccess.class

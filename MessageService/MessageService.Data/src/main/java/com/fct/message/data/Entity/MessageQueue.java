@@ -19,11 +19,11 @@ public class MessageQueue {
     //会会Id
     @Id
     @GeneratedValue(strategy=GenerationType.IDENTITY)
-    private Long id;
+    private Integer id;
 
     private String sourceAppName;
 
-    private String  groupId;
+    private String  typeId;
 
     private String targetModule;
 

@@ -1,33 +1,32 @@
-package com.fct.message.data.Repository;
+package com.fct.message.data.repository;
 
 
 //import com.fct.finance.data.Entity.MemberAccount;
 import com.fct.message.data.Entity.MessageQueue;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.jpa.domain.Specification;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
+import java.util.Date;
 import java.util.List;
 
 /**
  * Created by jon on 2017/4/7.
  */
-public interface MessageQueueRepository extends JpaRepository<MessageQueue, Long>{
+public interface MessageQueueRepository extends JpaRepository<MessageQueue, Integer>{
 
-    /**
-     * 查询语句findBy后面跟着的名字是entity的属性名称 比如findById Id代表entity UserEntity 里面的id, 也对应表里面的id列
-     * sql : select * from memberaccount where memberId = ?
-     * @param memberId
-     * @return
-     */
-//    MemberAccount findByMemberId(Integer memberId);
-//
-//    MemberAccount save(MemberAccount account);
-    /**
-     * 分页查询
-     * sql: select * from user where name = ? limit ?, ?
-     */
-//    @Query(nativeQuery = true, value = "select * from user a where a.name =?1 limit ?2,?3")
-//    List<MemberAccount> findUserByPage(String name, int offset, int limit);
+    @Query(nativeQuery = true, value = "select * from MessageQueue where typeId=?1 and status=0 and requestcount<=3 limit 500")
+    List<MessageQueue> findByTypeId(String typeId);
+
+    @Query(nativeQuery = true, value = "UPDATE MessageQueue SET Status=1,RequestCount=1,ProcessTime='?2' WHERE Id=?1")
+    void complete(Integer id, Date date);
+
+    @Query(nativeQuery = true, value = "UPDATE MessageQueue SET Status=0,RequestCount=0 WHERE Id=?1")
+    void resume(Integer id);
+
+    Page<MessageQueue> findAll(Specification<MessageQueue> spec, Pageable pageable);  //分页按条件查询
 
 }
 

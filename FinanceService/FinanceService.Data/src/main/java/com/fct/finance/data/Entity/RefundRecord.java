@@ -15,7 +15,7 @@ import java.util.Date;
 public class RefundRecord {
     @Id
     @GeneratedValue(strategy=GenerationType.IDENTITY)
-    private Long id;
+    private Integer id;
 
     /// <summary>
     /// 会员Id
@@ -56,6 +56,11 @@ public class RefundRecord {
     /// 第三方支付平台交易Id
     /// </summary>
     private String payPlatformOrderId;
+
+    /// <summary>
+    /// 线上支付金额
+    /// </summary>
+    private BigDecimal payAmount;
 
     /// <summary>
     /// 原路退回现金

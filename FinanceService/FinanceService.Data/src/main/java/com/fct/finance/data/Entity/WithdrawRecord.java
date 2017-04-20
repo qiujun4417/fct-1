@@ -54,7 +54,7 @@ public class WithdrawRecord {
     private Integer omsOperaterId;
 
     /// <summary>
-    /// 状态{0:待处理,1:已处理,2:处理失败,3:拒绝处理}
+    /// 状态{0:待处理,1:已处理,2:处理失败}
     /// </summary>
     private Integer status;;
 

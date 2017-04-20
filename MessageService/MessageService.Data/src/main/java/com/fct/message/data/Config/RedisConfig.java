@@ -1,4 +1,4 @@
-package com.fct.message.data.Config;
+package com.fct.message.data.config;
 
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.Bean;

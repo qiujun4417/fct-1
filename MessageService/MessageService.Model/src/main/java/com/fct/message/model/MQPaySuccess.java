@@ -5,12 +5,12 @@ import java.math.BigDecimal;
 /**
  * Created by jon on 2017/4/11.
  */
-public class PaySuccess {
+public class MQPaySuccess {
 
     /// <summary>
     /// 支付号
     /// </summary>
-    public Long pay_orderid;
+    public String pay_orderid;
 
     /// <summary>
     /// 交易类型
@@ -42,7 +42,7 @@ public class PaySuccess {
     /// <summary>
     /// 银行支付金额
     /// </summary>
-    public BigDecimal cash_amount;
+    public BigDecimal pay_amount;
 
     /// <summary>
     /// 支付平台方式

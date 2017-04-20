@@ -100,6 +100,11 @@
             <artifactId>MessageService.Model</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>com.fct.MessageService</groupId>
+            <artifactId>MessageService.Interface</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
     <build>
         <plugins>

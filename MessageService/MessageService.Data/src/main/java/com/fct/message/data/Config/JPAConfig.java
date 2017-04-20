@@ -1,4 +1,4 @@
-package com.fct.message.data.Config;
+package com.fct.message.data.config;
 
 import com.alibaba.druid.pool.DruidDataSource;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,7 +25,7 @@ import java.util.Properties;
  * @author jon
  */
 @Configuration
-@EnableJpaRepositories(basePackages = "com.fct.message.data.Repository")
+@EnableJpaRepositories(basePackages = "com.fct.message.data.repository")
 @EnableTransactionManagement
 public class JPAConfig {
 

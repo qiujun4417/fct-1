@@ -103,6 +103,10 @@ public class PayOrder {
     /// </summary>
     private String notifyData;
 
+    private BigDecimal refundAmount;
+
+    private Integer refundPoints;
+
     /// <summary>
     /// 创建时间
     /// </summary>

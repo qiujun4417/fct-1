@@ -1,6 +1,6 @@
 package com.fct.test;
 
-import com.fct.finance.service.FinanceService;
+import com.fct.finance.service.FinanceServiceImpl;
 import com.fct.finance.service.ApplicationStartUp;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -18,7 +18,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 public class HelloTest {
 
     @Autowired
-    private FinanceService financeService;
+    private FinanceServiceImpl financeService;
 
     @Test
     public void testService(){

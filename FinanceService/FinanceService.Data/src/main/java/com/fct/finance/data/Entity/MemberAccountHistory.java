@@ -61,6 +61,11 @@ public class MemberAccountHistory {
     private String remark;
 
     /// <summary>
+    /// 行为{0:支出,1:收入}
+    /// </summary>
+    private Integer behaviorType;
+
+    /// <summary>
     /// 创建时间
     /// </summary>
     private Date createTime;

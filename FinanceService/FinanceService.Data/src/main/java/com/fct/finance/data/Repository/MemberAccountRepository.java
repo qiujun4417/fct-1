@@ -2,6 +2,9 @@ package com.fct.finance.data.Repository;
 
 
 import com.fct.finance.data.Entity.MemberAccount;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.jpa.domain.Specification;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
@@ -20,13 +23,7 @@ public interface MemberAccountRepository extends JpaRepository<MemberAccount, In
      */
     MemberAccount findByMemberId(Integer memberId);
 
-    MemberAccount save(MemberAccount account);
-    /**
-     * 分页查询
-     * sql: select * from user where name = ? limit ?, ?
-     */
-    @Query(nativeQuery = true, value = "select * from user a where a.name =?1 limit ?2,?3")
-    List<MemberAccount> findUserByPage(String name, int offset, int limit);
+    Page<MemberAccount> findAll(Specification<MemberAccount> spec, Pageable pageable);  //分页按条件查询
 
 }
 

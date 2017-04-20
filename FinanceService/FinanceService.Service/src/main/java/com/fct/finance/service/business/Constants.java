@@ -11,12 +11,12 @@ public class Constants {
     public  enum enumPayStatus
     {
 
-        waitBuyerPay(0, "等待买家付款"),tradeFinished(1, "交易完成"),
-        tradeClose(2,"交易关闭"),tradeFaild(3,"交易失败"),amountException(4,"交易异常"),
-        tradePartRefund(5,"部分退款，一个订单多个商品情况下"),tradeRefund(6,"已退款状态");
+        waitpay("waitpay",0),success("success",1),
+        close("close",2),exception("exception",3),
+        partrefund("partrefund",5),fullrefund("fullrefund",6);
 
         private Integer value;
-        private String desc;
+        private String key;
 
         public Integer getValue() {
             return value;
@@ -26,17 +26,104 @@ public class Constants {
             this.value = value;
         }
 
-        public String getDesc() {
-            return desc;
+        public String getkey() {
+            return key;
         }
 
-        public void setDesc(String desc) {
-            this.desc = desc;
+        public void setkey(String key) {
+            this.key = key;
         }
 
-        private enumPayStatus(Integer value, String desc) {
+        private enumPayStatus(String key,Integer value) {
             this.value = value;
-            this.desc = desc;
+            this.key = key;
+        }
+    }
+
+    /// <summary>
+    /// 账号变动行为
+    /// </summary>
+    public enum enumTradeType
+    {
+        /// <summary>
+        /// 充值
+        /// </summary>
+        recharge,
+
+        /// <summary>
+        /// 购买产品
+        /// </summary>
+        buy,
+
+        /// <summary>
+        /// 提现
+        /// </summary>
+        withdrawal,
+
+        /// <summary>
+        /// 结算
+        /// </summary>
+        settle,
+
+        /// <summary>
+        /// 退款
+        /// </summary>
+        refund
+    }
+
+    /// <summary>
+    /// 退款行为方式
+    /// </summary>
+    public enum enumRefundMethod
+    {
+        /// <summary>
+        /// 退款至虚拟账户
+        /// </summary>
+        account(0),
+        /// <summary>
+        /// 原路返回
+        /// </summary>
+        wayback(1),
+        /// <summary>
+        /// 线下处理
+        /// </summary>
+        offline(2);
+
+        private Integer value;
+
+        public Integer getValue() {
+            return value;
+        }
+
+        public void setValue(Integer value) {
+            this.value = value;
+        }
+
+        private enumRefundMethod(Integer value) {
+            this.value = value;
+        }
+    }
+
+    /// <summary>
+    /// 退款状态
+    /// </summary>
+    public enum enumRefundStatus
+    {
+        wait_handle(0),confirmed(1),
+        success(2);
+
+        private Integer value;
+
+        public Integer getValue() {
+            return value;
+        }
+
+        public void setValue(Integer value) {
+            this.value = value;
+        }
+
+        private enumRefundStatus(Integer value) {
+            this.value = value;
         }
     }
 }
