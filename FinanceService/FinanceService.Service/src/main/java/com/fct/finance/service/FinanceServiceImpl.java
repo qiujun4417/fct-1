@@ -14,8 +14,6 @@ import java.util.List;
 @Service(value = "financeService")
 public class FinanceServiceImpl implements com.fct.finance.interfaces.FinanceService {
 
-    /*@Autowired
-    private MemberService memberService;*/
     @Override
     public PayOrder createPayOrder(PayOrder payOrder) {
 

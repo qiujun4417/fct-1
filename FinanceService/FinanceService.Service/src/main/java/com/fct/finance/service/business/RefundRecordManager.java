@@ -192,14 +192,14 @@ public class RefundRecordManager {
         Map<String, String> dic = JsonConverter.toObject(notifyData,Map.class);
         switch (platform.toLowerCase())
         {
-            case "fct_alipayh5":
-            case "fct_alipayapp":
+            case "alipay_fctwap":
+            case "alipay_fctapp":
                 return dic.containsKey("trade_no") ? dic.get("trade_no") : getStrForXmlDoc(dic.get("notify_data"), "/notify/trade_no");
-            case "fct_wxpayh5":
-            case "fct_wxpayapp":
+            case "wxpay_fctwap":
+            case "wxpay_fctapp":
                 return dic.get("transaction_id");
-            case "fct_unionpayh5":
-            case "fct_unionpayapp":
+            case "unionpay_fctwap":
+            case "unionpay_fctapp":
                 return dic.get("queryId");
             default:
                 return "";
@@ -283,7 +283,7 @@ public class RefundRecordManager {
         MQPayRefund message = new MQPayRefund();
 
         //如果为银联支付则支付单号必须是银联提供的orgId
-        message.pay_orderid = refund.getPayPlatform().toLowerCase() == "fct_unionpayh5" ? refund.getPayPlatformOrderId() : refund.getPayOrderId();
+        message.pay_orderid = refund.getPayPlatform().toLowerCase() == "unionpay_fcth5" ? refund.getPayPlatformOrderId() : refund.getPayOrderId();
         message.pay_platform = refund.getPayPlatform();
         message.refund_id = refund.getId();
         message.pay_amount = refund.getPayAmount();

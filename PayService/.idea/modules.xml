@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/PayService.iml" filepath="$PROJECT_DIR$/PayService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PayService.Interface/PayService.Interface.iml" filepath="$PROJECT_DIR$/PayService.Interface/PayService.Interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PayService.Model/PayService.Model.iml" filepath="$PROJECT_DIR$/PayService.Model/PayService.Model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PayService.Service/PayService.Service.iml" filepath="$PROJECT_DIR$/PayService.Service/PayService.Service.iml" />
+    </modules>
+  </component>
+</project>
