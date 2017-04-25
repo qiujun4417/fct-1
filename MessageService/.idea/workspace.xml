@@ -2,46 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c47ae39d-1fdb-476f-89c3-65612590d9ef" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessageService.Data/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessageService.Interface/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessageService.Model/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessageService.Service/target/classes/dubbo/dubbo-consumer.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessageService.Service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/MessageService.Service/src/main/resources/dubbo/dubbo-consumer.xml" afterPath="$PROJECT_DIR$/MessageService.Service/src/main/resources/dubbo/dubbo-provider.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessageService.Data/target/MessageService.Data-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/MessageService.Data/target/MessageService.Data-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessageService.Data/target/classes/com/fct/message/data/Config/JPAConfig.class" afterPath="$PROJECT_DIR$/MessageService.Data/target/classes/com/fct/message/data/Config/JPAConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessageService.Data/target/classes/com/fct/message/data/Entity/MessageQueue.class" afterPath="$PROJECT_DIR$/MessageService.Data/target/classes/com/fct/message/data/Entity/MessageQueue.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessageService.Data/target/classes/com/fct/message/data/Repository/MessageQueueRepository.class" afterPath="$PROJECT_DIR$/MessageService.Data/target/classes/com/fct/message/data/Repository/MessageQueueRepository.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessageService.Interface/target/MessageService.Interface-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/MessageService.Interface/target/MessageService.Interface-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessageService.Interface/target/classes/com/fct/message/interfaces/MessageService.class" afterPath="$PROJECT_DIR$/MessageService.Interface/target/classes/com/fct/message/interfaces/MessageService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessageService.Model/target/MessageService.Model-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/MessageService.Model/target/MessageService.Model-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessageService.Service/target/MessageService.Service-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/MessageService.Service/target/MessageService.Service-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessageService.Service/target/MessageService.Service-1.0-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/MessageService.Service/target/MessageService.Service-1.0-SNAPSHOT.jar.original" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessageService.Service/target/classes/com/fct/message/service/MessageServiceImpl$1.class" afterPath="$PROJECT_DIR$/MessageService.Service/target/classes/com/fct/message/service/MessageServiceImpl$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessageService.Service/target/classes/com/fct/message/service/MessageServiceImpl.class" afterPath="$PROJECT_DIR$/MessageService.Service/target/classes/com/fct/message/service/MessageServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessageService.Service/target/classes/com/fct/message/service/StartUpApplication.class" afterPath="$PROJECT_DIR$/MessageService.Service/target/classes/com/fct/message/service/StartUpApplication.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../PayService/PayService.Interface/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../PayService/PayService.Model/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../PayService/PayService.Service/target/classes/com/fct/pay/service/PayServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../PayService/PayService.Service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PayService/PayService.Interface/target/PayService.Interface-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/../PayService/PayService.Interface/target/PayService.Interface-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PayService/PayService.Model/target/PayService.Model-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/../PayService/PayService.Model/target/PayService.Model-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PayService/PayService.Service/target/PayService.Service-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/../PayService/PayService.Service/target/PayService.Service-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PayService/PayService.Service/target/PayService.Service-1.0-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/../PayService/PayService.Service/target/PayService.Service-1.0-SNAPSHOT.jar.original" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PayService/PayService.Service/target/classes/com/fct/pay/service/PayConfig.class" afterPath="$PROJECT_DIR$/../PayService/PayService.Service/target/classes/com/fct/pay/service/PayConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PayService/PayService.Service/target/classes/com/fct/pay/service/wxpay/WXPay.class" afterPath="$PROJECT_DIR$/../PayService/PayService.Service/target/classes/com/fct/pay/service/wxpay/WXPay.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FinanceService/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../FinanceService/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FinanceService/FinanceService.Data/FinanceService.Data.iml" afterPath="$PROJECT_DIR$/../FinanceService/FinanceService.Data/FinanceService.Data.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FinanceService/FinanceService.Data/src/main/java/com/fct/finance/data/Config/JPAConfig.java" afterPath="$PROJECT_DIR$/../FinanceService/FinanceService.Data/src/main/java/com/fct/finance/data/Config/JPAConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FinanceService/FinanceService.Data/src/main/java/com/fct/finance/data/Config/RedisConfig.java" afterPath="$PROJECT_DIR$/../FinanceService/FinanceService.Data/src/main/java/com/fct/finance/data/Config/RedisConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FinanceService/FinanceService.Data/src/main/java/com/fct/finance/data/Entity/MemberAccount.java" afterPath="$PROJECT_DIR$/../FinanceService/FinanceService.Data/src/main/java/com/fct/finance/data/Entity/MemberAccount.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FinanceService/FinanceService.Data/src/main/java/com/fct/finance/data/Entity/MemberAccountHistory.java" afterPath="$PROJECT_DIR$/../FinanceService/FinanceService.Data/src/main/java/com/fct/finance/data/Entity/MemberAccountHistory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FinanceService/FinanceService.Data/src/main/java/com/fct/finance/data/Entity/PayOrder.java" afterPath="$PROJECT_DIR$/../FinanceService/FinanceService.Data/src/main/java/com/fct/finance/data/Entity/PayOrder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FinanceService/FinanceService.Data/src/main/java/com/fct/finance/data/Entity/PayPlatform.java" afterPath="$PROJECT_DIR$/../FinanceService/FinanceService.Data/src/main/java/com/fct/finance/data/Entity/PayPlatform.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FinanceService/FinanceService.Data/src/main/java/com/fct/finance/data/Entity/RechargeRecord.java" afterPath="$PROJECT_DIR$/../FinanceService/FinanceService.Data/src/main/java/com/fct/finance/data/Entity/RechargeRecord.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FinanceService/FinanceService.Data/src/main/java/com/fct/finance/data/Entity/RefundRecord.java" afterPath="$PROJECT_DIR$/../FinanceService/FinanceService.Data/src/main/java/com/fct/finance/data/Entity/RefundRecord.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FinanceService/FinanceService.Data/src/main/java/com/fct/finance/data/Entity/SettleRecord.java" afterPath="$PROJECT_DIR$/../FinanceService/FinanceService.Data/src/main/java/com/fct/finance/data/Entity/SettleRecord.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FinanceService/FinanceService.Data/src/main/java/com/fct/finance/data/Entity/WithdrawRecord.java" afterPath="$PROJECT_DIR$/../FinanceService/FinanceService.Data/src/main/java/com/fct/finance/data/Entity/WithdrawRecord.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FinanceService/FinanceService.Data/src/main/java/com/fct/finance/data/Repository/MemberAccountHistoryRepository.java" afterPath="$PROJECT_DIR$/../FinanceService/FinanceService.Data/src/main/java/com/fct/finance/data/Repository/MemberAccountHistoryRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FinanceService/FinanceService.Data/src/main/java/com/fct/finance/data/Repository/MemberAccountRepository.java" afterPath="$PROJECT_DIR$/../FinanceService/FinanceService.Data/src/main/java/com/fct/finance/data/Repository/MemberAccountRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FinanceService/FinanceService.Data/src/main/java/com/fct/finance/data/Repository/PayOrderRepository.java" afterPath="$PROJECT_DIR$/../FinanceService/FinanceService.Data/src/main/java/com/fct/finance/data/Repository/PayOrderRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FinanceService/FinanceService.Data/src/main/java/com/fct/finance/data/Repository/PayPlatformRepository.java" afterPath="$PROJECT_DIR$/../FinanceService/FinanceService.Data/src/main/java/com/fct/finance/data/Repository/PayPlatformRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FinanceService/FinanceService.Data/src/main/java/com/fct/finance/data/Repository/RechargeRecordRepository.java" afterPath="$PROJECT_DIR$/../FinanceService/FinanceService.Data/src/main/java/com/fct/finance/data/Repository/RechargeRecordRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FinanceService/FinanceService.Data/src/main/java/com/fct/finance/data/Repository/RefundRecordRepository.java" afterPath="$PROJECT_DIR$/../FinanceService/FinanceService.Data/src/main/java/com/fct/finance/data/Repository/RefundRecordRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FinanceService/FinanceService.Data/src/main/java/com/fct/finance/data/Repository/SettleRecordRepository.java" afterPath="$PROJECT_DIR$/../FinanceService/FinanceService.Data/src/main/java/com/fct/finance/data/Repository/SettleRecordRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FinanceService/FinanceService.Data/src/main/java/com/fct/finance/data/Repository/WithdrawRecordRepository.java" afterPath="$PROJECT_DIR$/../FinanceService/FinanceService.Data/src/main/java/com/fct/finance/data/Repository/WithdrawRecordRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FinanceService/FinanceService.Interface/FinanceService.Interface.iml" afterPath="$PROJECT_DIR$/../FinanceService/FinanceService.Interface/FinanceService.Interface.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FinanceService/FinanceService.Interface/src/main/java/com/fct/finance/interfaces/FinanceService.java" afterPath="$PROJECT_DIR$/../FinanceService/FinanceService.Interface/src/main/java/com/fct/finance/interfaces/FinanceService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FinanceService/FinanceService.Service/FinanceService.Service.iml" afterPath="$PROJECT_DIR$/../FinanceService/FinanceService.Service/FinanceService.Service.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FinanceService/FinanceService.Service/src/main/java/com/fct/finance/service/ApplicationStartUp.java" afterPath="$PROJECT_DIR$/../FinanceService/FinanceService.Service/src/main/java/com/fct/finance/service/ApplicationStartUp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FinanceService/FinanceService.Service/src/main/java/com/fct/finance/service/FinanceServiceImpl.java" afterPath="$PROJECT_DIR$/../FinanceService/FinanceService.Service/src/main/java/com/fct/finance/service/FinanceServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FinanceService/FinanceService.Service/src/main/java/com/fct/finance/service/business/MemberAccountHistoryManager.java" afterPath="$PROJECT_DIR$/../FinanceService/FinanceService.Service/src/main/java/com/fct/finance/service/business/MemberAccountHistoryManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FinanceService/FinanceService.Service/src/main/java/com/fct/finance/service/business/MemberAccountManager.java" afterPath="$PROJECT_DIR$/../FinanceService/FinanceService.Service/src/main/java/com/fct/finance/service/business/MemberAccountManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FinanceService/FinanceService.Service/src/main/java/com/fct/finance/service/business/PayOrderManager.java" afterPath="$PROJECT_DIR$/../FinanceService/FinanceService.Service/src/main/java/com/fct/finance/service/business/PayOrderManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FinanceService/FinanceService.Service/src/main/java/com/fct/finance/service/business/PayPlatformManager.java" afterPath="$PROJECT_DIR$/../FinanceService/FinanceService.Service/src/main/java/com/fct/finance/service/business/PayPlatformManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FinanceService/FinanceService.Service/src/main/java/com/fct/finance/service/business/RechargeRecordManager.java" afterPath="$PROJECT_DIR$/../FinanceService/FinanceService.Service/src/main/java/com/fct/finance/service/business/RechargeRecordManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FinanceService/FinanceService.Service/src/main/java/com/fct/finance/service/business/RefundRecordManager.java" afterPath="$PROJECT_DIR$/../FinanceService/FinanceService.Service/src/main/java/com/fct/finance/service/business/RefundRecordManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FinanceService/FinanceService.Service/src/main/java/com/fct/finance/service/business/SettleRecordManager.java" afterPath="$PROJECT_DIR$/../FinanceService/FinanceService.Service/src/main/java/com/fct/finance/service/business/SettleRecordManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FinanceService/FinanceService.Service/src/main/java/com/fct/finance/service/business/WithdrawRecordManager.java" afterPath="$PROJECT_DIR$/../FinanceService/FinanceService.Service/src/main/java/com/fct/finance/service/business/WithdrawRecordManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FinanceService/FinanceService.Service/src/main/resources/config/application-de.yml" afterPath="$PROJECT_DIR$/../FinanceService/FinanceService.Service/src/main/resources/config/application-de.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FinanceService/FinanceService.Service/src/main/resources/dubbo/dubbo-consumer.xml" afterPath="$PROJECT_DIR$/../FinanceService/FinanceService.Service/src/main/resources/dubbo/dubbo-consumer.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessageService.Data/src/main/java/com/fct/message/data/Config/JPAConfig.java" afterPath="$PROJECT_DIR$/MessageService.Data/src/main/java/com/fct/message/data/Config/JPAConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessageService.Data/src/main/java/com/fct/message/data/Entity/MessageQueue.java" afterPath="$PROJECT_DIR$/MessageService.Data/src/main/java/com/fct/message/data/Entity/MessageQueue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessageService.Data/src/main/java/com/fct/message/data/Repository/MessageQueueRepository.java" afterPath="$PROJECT_DIR$/MessageService.Data/src/main/java/com/fct/message/data/Repository/MessageQueueRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessageService.Data/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/MessageService.Data/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessageService.Data/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/MessageService.Data/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessageService.Data/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/MessageService.Data/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessageService.Interface/src/main/java/com/fct/message/interfaces/MessageService.java" afterPath="$PROJECT_DIR$/MessageService.Interface/src/main/java/com/fct/message/interfaces/MessageService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessageService.Interface/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/MessageService.Interface/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessageService.Interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/MessageService.Interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessageService.Model/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/MessageService.Model/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessageService.Model/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/MessageService.Model/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessageService.Service/MessageService.Service.iml" afterPath="$PROJECT_DIR$/MessageService.Service/MessageService.Service.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessageService.Service/src/main/java/com/fct/message/service/MessageServiceImpl.java" afterPath="$PROJECT_DIR$/MessageService.Service/src/main/java/com/fct/message/service/MessageServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessageService.Service/src/main/java/com/fct/message/service/StartUpApplication.java" afterPath="$PROJECT_DIR$/MessageService.Service/src/main/java/com/fct/message/service/StartUpApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessageService.Service/src/main/resources/config/application-de.yml" afterPath="$PROJECT_DIR$/MessageService.Service/src/main/resources/config/application-de.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessageService.Service/src/main/resources/dubbo.properties" afterPath="$PROJECT_DIR$/MessageService.Service/src/main/resources/dubbo.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessageService.Service/src/main/resources/logback-spring.xml" afterPath="$PROJECT_DIR$/MessageService.Service/src/main/resources/logback-spring.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessageService.Service/target/classes/config/application-de.yml" afterPath="$PROJECT_DIR$/MessageService.Service/target/classes/config/application-de.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessageService.Service/target/classes/logback-spring.xml" afterPath="$PROJECT_DIR$/MessageService.Service/target/classes/logback-spring.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessageService.Service/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/MessageService.Service/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessageService.Service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/MessageService.Service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PayService/PayService.Interface/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/../PayService/PayService.Interface/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PayService/PayService.Interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/../PayService/PayService.Interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PayService/PayService.Model/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/../PayService/PayService.Model/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PayService/PayService.Model/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/../PayService/PayService.Model/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PayService/PayService.Service/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/../PayService/PayService.Service/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PayService/PayService.Service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/../PayService/PayService.Service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PayService/PayService.Service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/../PayService/PayService.Service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -120,8 +133,8 @@
       <file leaf-file-name="dubbo.properties" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MessageService.Service/src/main/resources/dubbo.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="72">
+              <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -1074,16 +1087,16 @@
       <workItem from="1492848716989" duration="81000" />
       <workItem from="1492850753626" duration="2101000" />
       <workItem from="1493087361769" duration="490000" />
-      <workItem from="1493088743701" duration="1739000" />
+      <workItem from="1493088743701" duration="2923000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28490000" />
+    <option name="totallyTimeSpent" value="29674000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="746" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299363" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1095,7 +1108,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.51376146" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.51376146" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="simpleUML" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1443,8 +1456,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MessageService.Service/src/main/resources/dubbo.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="72">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
           <folding />
         </state>
       </provider>
