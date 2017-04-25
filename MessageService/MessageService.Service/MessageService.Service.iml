@@ -36,6 +36,7 @@
     <orderEntry type="library" name="Maven: org.jboss.logging:jboss-logging:3.3.0.Final" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml:classmate:1.1.0" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.6.5" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.6.5" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-web:4.2.5.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-aop:4.2.5.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: aopalliance:aopalliance:1.0" level="project" />
@@ -77,7 +78,7 @@
     <orderEntry type="module-library">
       <library name="Maven: com.alibaba:jconsole:1.8.0">
         <CLASSES>
-          <root url="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/lib/jconsole.jar!/" />
+          <root url="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/lib/jconsole.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -86,7 +87,7 @@
     <orderEntry type="module-library">
       <library name="Maven: com.alibaba:tools:1.8.0">
         <CLASSES>
-          <root url="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/lib/tools.jar!/" />
+          <root url="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/lib/tools.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -106,13 +107,6 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-core:4.2.5.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-test:4.2.5.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: com.fct:fct-common:1.0-SNAPSHOT" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.6.5" level="project" />
-    <orderEntry type="library" name="Maven: joda-time:joda-time:2.8.2" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.4" level="project" />
-    <orderEntry type="library" name="Maven: com.squareup.okio:okio:1.8.0" level="project" />
-    <orderEntry type="library" name="Maven: com.squareup.okhttp:okhttp:2.7.5" level="project" />
-    <orderEntry type="library" name="Maven: org.reflections:reflections:0.9.10" level="project" />
-    <orderEntry type="library" name="Maven: com.google.code.findbugs:annotations:2.0.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.assertj:assertj-core:2.3.0" level="project" />
     <orderEntry type="library" name="Maven: com.google.guava:guava:18.0" level="project" />
   </component>
